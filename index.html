@@ -1,0 +1,240 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Portafolio personal
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-900">
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-lg">
+   <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between">
+     <div class="flex space-x-7">
+      <div>
+       <a class="flex items-center py-4 px-2" href="#">
+        <img alt="Logo of the portfolio website" class="h-8 w-8 mr-2" height="50" src="https://storage.googleapis.com/a1aa/image/BaxK8t9O8rAtFCfivoWXbXd27dacggid037nsmxz8vM.jpg" width="50"/>
+        <span class="font-semibold text-gray-500 text-lg">
+         Mi Portafolio
+        </span>
+       </a>
+      </div>
+      <div class="hidden md:flex items-center space-x-1">
+       <a class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold" href="#home">
+        Inicio
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="#about">
+        Sobre mi
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="#portfolio">
+        Portafolio
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="#contact">
+        Contacto
+       </a>
+      </div>
+     </div>
+     <div class="md:hidden flex items-center">
+      <button class="outline-none mobile-menu-button">
+       <i class="fas fa-bars">
+       </i>
+      </button>
+     </div>
+    </div>
+   </div>
+   <div class="hidden mobile-menu">
+    <ul class="">
+     <li>
+      <a class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" href="#home">
+       Inicio
+      </a>
+     </li>
+     <li>
+      <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="#about">
+       Sobre mi
+      </a>
+     </li>
+     <li>
+      <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="#portfolio">
+       Portafolio
+      </a>
+     </li>
+     <li>
+      <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="#contact">
+       Contacto
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="bg-white py-20" id="home">
+   <div class="container mx-auto flex flex-col md:flex-row items-center">
+    <div class="flex flex-col w-full lg:w-1/2 justify-center items-start p-8">
+     <h1 class="text-3xl md:text-5xl text-gray-800 font-bold leading-tight">
+      Hola, Soy Erasmo Castro
+     </h1>
+     <h2 class="text-2xl md:text-3xl text-gray-600">
+      Devops enginner
+     </h2>
+     <p class="mt-4 text-gray-600">
+      Me apasiona el desarrollo de software y proyectos, y ahora estoy inmerso en su despliegue en los distintos servicios de la nube.
+     </p>
+     <a class="mt-8 bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 transition duration-300" href="#contact">
+      Contactame
+     </a>
+    </div>
+    <div class="w-full lg:w-1/2 lg:py-6 text-center">
+     <img alt="Illustration of a web developer working on a laptop" class="w-full md:w-4/5 mx-auto" height="500" src="https://storage.googleapis.com/a1aa/image/IoRnqVt-KeITx_QNv0MWq3YVu-EQF3gyY4mxJJ7ZC4k.jpg" width="500"/>
+    </div>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section class="bg-gray-100 py-20" id="about">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold">
+     About Me
+    </h2>
+    <p class="mt-4 text-gray-600">
+     Soy un apasionado de la tecnologia y me gusta mantenerme actualizado con los constantes cambios que trae consigo.
+    </p>
+    <div class="mt-8 flex flex-col md:flex-row justify-center items-center">
+     <div class="w-full md:w-1/3 p-4">
+      <img alt="Perfil de Erasmo Castro, devops enginner" class="rounded-full mx-auto" height="300" src="\img\IMG_1907.jpeg" width="300"/>
+     </div>
+     <div class="w-full md:w-2/3 p-4">
+      <p class="text-gray-600">
+       Tengo una base solida adquirida en mi formacion en ITLA, asi como tambien en cursos y formaciones independientes como el programa Oracle One, Samsung innovation campus, y plataformas como Udemy, coursera, edTeam y codigo facilito...
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Portfolio Section -->
+  <section class="bg-white py-20" id="portfolio">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold">
+     Mi portafolio
+    </h2>
+    <p class="mt-4 text-gray-600">
+     Aqui se mostraran los proyectos
+    </p>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+      <img alt="Screenshot of Project 1, a responsive e-commerce website" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/K24xO8CC78IO5GNRPQFHO2cSDVrdMNXb6ZyFncHlqlU.jpg" width="300"/>
+      <h3 class="mt-4 text-xl font-semibold">
+       Project 1
+      </h3>
+      <p class="mt-2 text-gray-600">
+       ejemplo
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+      <img alt="Screenshot of Project 2, a personal blog website" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/_dfW9qBYQgNwSOgQA5QSUyHWZQLIzrtLQuMPzA8jI5s.jpg" width="300"/>
+      <h3 class="mt-4 text-xl font-semibold">
+       Project 2
+      </h3>
+      <p class="mt-2 text-gray-600">
+        ejemplo
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+      <img alt="Screenshot of Project 3, a portfolio website" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/dSMq1gUAEmo7jaLyhNEoZYXRBO_K9eSHjr_WZ4DZFIY.jpg" width="300"/>
+      <h3 class="mt-4 text-xl font-semibold">
+       Project 3
+      </h3>
+      <p class="mt-2 text-gray-600">
+        ejemplo
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+      <img alt="Screenshot of Project 4, a task management app" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/vO-E_SbpKswNNhsH1HrT3CSoJc4OQjXz_sES0Wwiq3A.jpg" width="300"/>
+      <h3 class="mt-4 text-xl font-semibold">
+       Project 4
+      </h3>
+      <p class="mt-2 text-gray-600">
+        ejemplo
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+      <img alt="Screenshot of Project 5, a social media dashboard" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/s8ROZyq_8KoPdkqWuioRPfWUxvurkD6OZFnSFZT-gLE.jpg" width="300"/>
+      <h3 class="mt-4 text-xl font-semibold">
+       Project 5
+      </h3>
+      <p class="mt-2 text-gray-600">
+        ejemplo.
+      </p>
+     </div>
+     <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+      <img alt="Screenshot of Project 6, a weather forecasting app" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/Ty4osjA7JiOaxFpqbguGRiJjX2DnyRScwSuDHJymOBc.jpg" width="300"/>
+      <h3 class="mt-4 text-xl font-semibold">
+       Project 6
+      </h3>
+      <p class="mt-2 text-gray-600">
+        ejemplo
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="bg-gray-100 py-20" id="contact">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold">
+     Contactame
+    </h2>
+    <p class="mt-4 text-gray-600">
+     Abierto a cualquier proyecto o colaboracion
+    </p>
+    <div class="mt-8 flex flex-col md:flex-row justify-center items-center">
+     <div class="w-full md:w-1/2 p-4">
+      <form action="#" class="bg-white p-8 rounded-lg shadow-lg" method="POST">
+       <div class="mb-4">
+        <label class="block text-gray-700" for="name">
+         Nombre
+        </label>
+        <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" id="name" name="name" type="text"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700" for="email">
+         Correo
+        </label>
+        <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" id="email" name="email" type="email"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700" for="message">
+         Mensaje
+        </label>
+        <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" id="message" name="message" rows="4"></textarea>
+       </div>
+       <button class="w-full bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 transition duration-300" type="submit">
+        Enviar mensaje
+       </button>
+      </form>
+     </div>
+     <div class="w-full md:w-1/2 p-4">
+      <img alt="Illustration of a person sending a message through a laptop" class="w-full md:w-4/5 mx-auto" height="400" src="https://storage.googleapis.com/a1aa/image/DOz4Plg6X5RjtSdVVTsuVCwpks3iyEKDcksDABKc8rE.jpg" width="400"/>
+     </div>
+    </div>
+   </div>
+  </section>
+  <script>
+   const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+  </script>
+ </body>
+</html>
